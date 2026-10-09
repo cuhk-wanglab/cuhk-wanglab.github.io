@@ -1,0 +1,90 @@
+{
+  "canonical_base": "https://cuhkwanglab.github.io/",
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/",
+      "route": "/"
+    },
+    {
+      "label": "Research",
+      "href": "/research/",
+      "route": "/research/"
+    },
+    {
+      "label": "People",
+      "href": "/people/",
+      "route": "/people/"
+    },
+    {
+      "label": "Publications",
+      "href": "/publications/",
+      "route": "/publications/"
+    },
+    {
+      "label": "News",
+      "href": "/news/",
+      "route": "/news/"
+    },
+    {
+      "label": "Join Us",
+      "href": "/join-us/",
+      "route": "/join-us/"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact/",
+      "route": "/contact/"
+    }
+  ],
+  "institution": {
+    "lab_name": "Wang Lab",
+    "university": "The Chinese University of Hong Kong",
+    "department": "Department of Orthopaedics and Traumatology",
+    "institute": "Li Ka Shing Institute of Health Sciences",
+    "location_label": "CUHK · Hong Kong"
+  },
+  "principal_investigator": {
+    "name": "Huating Wang",
+    "role": "Professor",
+    "display_name": "Professor Huating Wang",
+    "email": "huating.wang@cuhk.edu.hk",
+    "profile_url": "https://research.cuhk.edu.hk/en/persons/huating-wang/",
+    "profile_label": "CUHK profile"
+  },
+  "join_us": {
+    "eyebrow": "Opportunities",
+    "title": "Interested in the work of Wang Lab?",
+    "intro": "Wang Lab studies skeletal muscle stem cells and the tissue environment that supports repair, with related work on aging, cellular senescence, genome regulation and multi-omics.",
+    "sections": [
+      {
+        "label": "Research environment",
+        "title": "Questions across muscle biology",
+        "body": "The lab’s public research record spans muscle stem-cell biology, regeneration, aging and sarcopenia, cellular and molecular mechanisms, genomics, multi-omics and computational approaches."
+      },
+      {
+        "label": "Approaches",
+        "title": "Connected experimental and computational work",
+        "body": "Published work includes studies of cell state and niche signaling, RNA and genome regulation, human muscle profiling and intervention questions in defined research models."
+      }
+    ],
+    "contact_title": "For prospective researchers",
+    "contact_text": "If you are interested in this research, please contact the lab with your CV and research interests.",
+    "cta_label": "Contact the lab"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Contact Wang Lab",
+    "research_title": "Research enquiries",
+    "intro": "For scientific collaboration and research enquiries, contact the Principal Investigator.",
+    "join_title": "Join the lab",
+    "join_intro": "For prospective researchers and students, explore the lab’s research environment and how to express interest.",
+    "join_link_label": "Explore opportunities",
+    "affiliation_title": "Institutional affiliation"
+  },
+  "footer": {
+    "label": "Explore",
+    "copyright_year": 2026,
+    "back_to_top": "Back to top ↑"
+  }
+}

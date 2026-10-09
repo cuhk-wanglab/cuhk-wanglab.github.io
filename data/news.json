@@ -1,0 +1,674 @@
+{
+  "records": [
+    {
+      "id": "news-2026-01-celebrating-the-success-of-the-2026-cuhk-cuhk-sz",
+      "date": "September 2026",
+      "year": 2026,
+      "category": null,
+      "title": "Celebrating the Success of the 2026 CUHK–CUHK(SZ) \"1+1+1\" Joint Symposium: Advancing Cross-Campus Collaboration！",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": true
+    },
+    {
+      "id": "news-2026-02-congratulations-to-dr-qiao-yulong-and-dr-yang-fe",
+      "date": "August 2026",
+      "year": 2026,
+      "category": null,
+      "title": "Congratulations to Dr. Qiao Yulong and Dr. Yang Feng won the Best Poster Award at 2026 Chromatin Biology and Epigenetics Symposium in Taiyuan!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": true
+    },
+    {
+      "id": "news-2026-03-prof-huating-wang-gave-talk-at-2026-chromatin-bi",
+      "date": "August 2026",
+      "year": 2026,
+      "category": null,
+      "title": "Prof. Huating Wang gave talk at 2026 Chromatin Biology and Epigenetics Symposium in Taiyuan!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2026-04-the-11th-national-symposium-on-skeletal-muscle-b",
+      "date": "August 2026",
+      "year": 2026,
+      "category": null,
+      "title": "The 11th National Symposium on Skeletal Muscle Biology was a complete success !",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2026-05-congratulations-to-dr-zhang-suyang-won-the-best-",
+      "date": "August 2026",
+      "year": 2026,
+      "category": null,
+      "title": "Congratulations to Dr. Zhang Suyang won the Best Poster Award at The 11th National Symposium on Skeletal Muscle Biology in Datong!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2026-06-guest-speaker-prof-yuan-gave-a-talk-about-ai-in-",
+      "date": "August 2026",
+      "year": 2026,
+      "category": null,
+      "title": "Guest Speaker Prof. Yuan gave a talk about AI in medical data analysis.",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2026-07-huge-congrats-to-prof-wang-on-obtaining-the-stg-",
+      "date": "July 2026",
+      "year": 2026,
+      "category": null,
+      "title": "Huge congrats to Prof. Wang on obtaining the STG grant！",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": true
+    },
+    {
+      "id": "news-2026-08-guest-speaker-prof-jia-wang-gave-a-talk-about-bi",
+      "date": "July 2026",
+      "year": 2026,
+      "category": null,
+      "title": "Guest Speaker Prof. Jia Wang gave a talk about bipartite active X chromosome",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2026-09-congratulations-to-dr-liu-xingyuan-and-dr-zhou-q",
+      "date": "June 2026",
+      "year": 2026,
+      "category": null,
+      "title": "Congratulations to Dr. Liu Xingyuan and Dr. Zhou Qin!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2026-10-congrats-intern-geoffery-year-2-cuhk-gps-student",
+      "date": "June 2026",
+      "year": 2026,
+      "category": null,
+      "title": "Congrats Intern Geoffery! Year 2 CUHK GPS Student Completes 1-Month Internship！",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2026-11-congratulations-to-xingyuan-on-his-review-on-cel",
+      "date": "May 2026",
+      "year": 2026,
+      "category": null,
+      "title": "Congratulations to Xingyuan on his Review on Cell Regeneration!",
+      "summary": null,
+      "external_url": "https://doi.org/10.1186/s13619-026-00287-9",
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2026-12-congratulations-to-dr-liangqiang-on-his-publicat",
+      "date": "April 2026",
+      "year": 2026,
+      "category": null,
+      "title": "Congratulations to Dr. Liangqiang on his publication on Molecular Therapy!",
+      "summary": null,
+      "external_url": "https://doi.org/10.1016/j.ymthe.2026.04.032",
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2026-13-congratulations-to-dr-yang-on-his-review-on",
+      "date": "March 2026",
+      "year": 2026,
+      "category": null,
+      "title": "Congratulations to Dr. Yang on his Review on ENDOCRINOLOGY AND METABOLISM!",
+      "summary": null,
+      "external_url": "https://doi.org/10.3803/EnM.2025.2816",
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2026-14-congratulations-to-liangqiang-a-baby-girl",
+      "date": "January 2026",
+      "year": 2026,
+      "category": null,
+      "title": "Congratulations to Liangqiang, a baby girl!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2026-15-xingyuan-won-the-best-poster-award-at-the-13th-x",
+      "date": "January 2026",
+      "year": 2026,
+      "category": null,
+      "title": "Xingyuan won the Best Poster Award at The 13th Xiamen winter symposium - Lipid metabolism and physiology",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2025-16-congratulations-to-dr-he-liangqiang-on-his-publi",
+      "date": "November 2025",
+      "year": 2025,
+      "category": null,
+      "title": "Congratulations to Dr. He Liangqiang on his publication on Nature Communications!",
+      "summary": null,
+      "external_url": "https://doi.org/10.1038/s41467-025-65506-4",
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2025-17-guest-speaker-prof-shihuan-kuang-gave-a-talk-abo",
+      "date": "November 2025",
+      "year": 2025,
+      "category": null,
+      "title": "Guest Speaker Prof. Shihuan Kuang gave a talk about DLL1 in satellite cells",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2025-18-prof-huating-wang-and-her-team-gave-talks-at-the",
+      "date": "November 2025",
+      "year": 2025,
+      "category": null,
+      "title": "Prof. Huating Wang and her team gave talks at The 10th National Symposium on Skeletal Muscle Biology in Yangzhou",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2025-19-cuhk-city-u-joint-symposium-on-g4-biology-chemis",
+      "date": "October 2025",
+      "year": 2025,
+      "category": null,
+      "title": "CUHK-City U Joint Symposium on G4 Biology/ Chemistry",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2025-20-congratulations-to-yang-a-baby-girl",
+      "date": "July 2025",
+      "year": 2025,
+      "category": null,
+      "title": "Congratulations to Yang, a baby girl!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2025-21-prof-huating-and-xiaona-gave-talks-at-eors-meeti",
+      "date": "June 2025",
+      "year": 2025,
+      "category": null,
+      "title": "Prof. Huating and Xiaona gave talks at EORS meeting in Davos",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2025-22-congratulations-to-dr-li-chuhan-and-dr-yang-feng",
+      "date": "June 2025",
+      "year": 2025,
+      "category": null,
+      "title": "Congratulations to Dr. Li Chuhan and Dr. Yang Feng!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2025-23-congratulations-to-fu-yang-presenting-in-isscr",
+      "date": "June 2025",
+      "year": 2025,
+      "category": null,
+      "title": "Congratulations to Fu Yang presenting in ISSCR!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2025-24-prof-huating-gave-a-talk-at-grc-myogenesis-in-it",
+      "date": "June 2025",
+      "year": 2025,
+      "category": null,
+      "title": "Prof. Huating gave a talk at GRC Myogenesis in Italy!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2025-25-farewell-to-sun-qiang",
+      "date": "June 2025",
+      "year": 2025,
+      "category": null,
+      "title": "Farewell to Sun Qiang!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2025-26-chuhan-and-yang-s-paper-has-been-accepted-by-nat",
+      "date": "May 2025",
+      "year": 2025,
+      "category": null,
+      "title": "Chuhan and Yang's paper has been accepted by Nature Communications!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2025-27-welcome-new-team-member-quinn-zhang",
+      "date": "May 2025",
+      "year": 2025,
+      "category": null,
+      "title": "Welcome new team member: Quinn Zhang!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2025-28-congratulations-to-yulong-a-baby-girl",
+      "date": "March 2025",
+      "year": 2025,
+      "category": null,
+      "title": "Congratulations to Yulong, a baby girl!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2025-29-welcome-new-team-member-bonan-zhang",
+      "date": "March 2025",
+      "year": 2025,
+      "category": null,
+      "title": "Welcome new team member: Bonan Zhang!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2025-30-li-yang-s-paper-has-been-accepted-by-nature-comm",
+      "date": "January 2025",
+      "year": 2025,
+      "category": null,
+      "title": "Li Yang's paper has been accepted by Nature Communications!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2025-31-lab-photo-shooting-day",
+      "date": "January 2025",
+      "year": 2025,
+      "category": null,
+      "title": "Lab Photo Shooting Day",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2024-32-sun-qiang-s-paper-has-been-accepted-by-nucleic-a",
+      "date": "December 2024",
+      "year": 2024,
+      "category": null,
+      "title": "Sun qiang's paper has been accepted by Nucleic Acids Research!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2024-33-li-yang-s-paper-has-been-accepted-by-nature-comm",
+      "date": "November 2024",
+      "year": 2024,
+      "category": null,
+      "title": "Li Yang's paper has been accepted by Nature Communications!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2024-34-yuwei-s-paper-has-been-accepted-by-nature-commun",
+      "date": "November 2024",
+      "year": 2024,
+      "category": null,
+      "title": "Yuwei's paper has been accepted by Nature Communications!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2024-35-li-yang-won-the-outstanding-academic-poster-awar",
+      "date": "November 2024",
+      "year": 2024,
+      "category": null,
+      "title": "Li Yang won the Outstanding Academic Poster Award at the 2024 Westlake x Cell Press Aging Conference!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2023-36-gexin-won-the-best-poster-award-at-ias-trs-joint",
+      "date": "December 2023",
+      "year": 2023,
+      "category": null,
+      "title": "Gexin won the best poster award at IAS-TRS joint symposium!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2023-37-suyang-won-the-best-poster-award-at-the-8th-chin",
+      "date": "October 2023",
+      "year": 2023,
+      "category": null,
+      "title": "Suyang won the best poster award at the 8th China Muscle Society Meeting!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2023-38-one-nsfc-was-awarded-to-xiaona",
+      "date": "June 2023",
+      "year": 2023,
+      "category": null,
+      "title": "One NSFC was awarded to Xiaona!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2023-39-two-grfs-awarded-to-huating-and-hao",
+      "date": "June 2023",
+      "year": 2023,
+      "category": null,
+      "title": "Two GRFs awarded to Huating and Hao!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2023-40-suyang-s-paper-is-accepted-by-nature-communicati",
+      "date": "June 2023",
+      "year": 2023,
+      "category": null,
+      "title": "Suyang's paper is accepted by Nature Communication!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2023-41-congratulations-to-dr-zhiming-he",
+      "date": "June 2023",
+      "year": 2023,
+      "category": null,
+      "title": "Congratulations to Dr. Zhiming He!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2023-42-yang-won-best-trainee-talk-award-at-the-grc-grs-",
+      "date": "June 2023",
+      "year": 2023,
+      "category": null,
+      "title": "Yang won Best Trainee Talk award at the GRC/GRS Myogenesis Meeting 2023!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2023-43-congratulations-to-yulong-and-qiang-sun-m6a-pape",
+      "date": "March 2023",
+      "year": 2023,
+      "category": null,
+      "title": "Congratulations to Yulong and Qiang Sun, m6A paper accepted by eLife!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2023-44-congratulations-to-xiangqiang-zac-and-yingzhe-3d",
+      "date": "Jan 2023",
+      "year": 2023,
+      "category": null,
+      "title": "Congratulations to Xiangqiang, Zac and Yingzhe, 3D paper finally accepted by Science Advances!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2022-45-congratulations-to-dr-yulong-qiao",
+      "date": "Dec 2022",
+      "year": 2022,
+      "category": null,
+      "title": "Congratulations to Dr. Yulong Qiao!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2022-46-congratulations-to-xiaona-s-promotion-to-rap",
+      "date": "September 2022",
+      "year": 2022,
+      "category": null,
+      "title": "Congratulations to Xiaona's promotion to RAP!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2022-47-welcome-new-students-xingyuan-liu-and-gexin-liu",
+      "date": "August 2022",
+      "year": 2022,
+      "category": null,
+      "title": "Welcome new students: Xingyuan Liu and Gexin Liu!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2022-48-farewell-to-yuwei",
+      "date": "July 2022",
+      "year": 2022,
+      "category": null,
+      "title": "Farewell to Yuwei!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2022-49-congratulations-to-dr-qiang-sun-and-dr-yuwei-zha",
+      "date": "June 2022",
+      "year": 2022,
+      "category": null,
+      "title": "Congratulations to Dr. Qiang Sun and Dr. Yuwei Zhang!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2022-50-congratulations-to-xiaona-linc-p27-paper-publish",
+      "date": "June 2022",
+      "year": 2022,
+      "category": null,
+      "title": "Congratulations to Xiaona, Linc-p27 paper published on Cell Reports!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2022-51-congratulations-to-yang-a-baby-boy",
+      "date": "June 2022",
+      "year": 2022,
+      "category": null,
+      "title": "Congratulations to Yang, a baby boy!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2021-52-congratulations-to-suyang-a-baby-girl",
+      "date": "Dec 2021",
+      "year": 2021,
+      "category": null,
+      "title": "Congratulations to Suyang! A baby girl!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2021-53-congratulations-to-xiaona-a-baby-girl",
+      "date": "Oct 2021",
+      "year": 2021,
+      "category": null,
+      "title": "Congratulations to Xiaona! A baby girl!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2021-54-we-are-recruiting-new-students",
+      "date": "Oct 2021",
+      "year": 2021,
+      "category": null,
+      "title": "We are recruiting new students!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2021-55-farewell-to-yile-and-yingzhe",
+      "date": "Sep 2021",
+      "year": 2021,
+      "category": null,
+      "title": "Farewell to Yile and Yingzhe!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2021-56-welcome-new-m-phil-students-qing-zhou-chuhan-and",
+      "date": "Aug 2021",
+      "year": 2021,
+      "category": null,
+      "title": "Welcome new M.Phil. students: Qing Zhou, Chuhan and Feng Yang!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2021-57-congratulations-to-liangqiang-and-yingzhe-scr-pa",
+      "date": "Aug 2021",
+      "year": 2021,
+      "category": null,
+      "title": "Congratulations to Liangqiang and Yingzhe! SCR paper finally accepted!!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2021-58-congratulations-to-dr-yang-li-for-successful-ora",
+      "date": "July 2021",
+      "year": 2021,
+      "category": null,
+      "title": "Congratulations to Dr. Yang Li for successful oral defense!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2021-59-congratulations-to-stella-great-job-defending-mp",
+      "date": "June 2021",
+      "year": 2021,
+      "category": null,
+      "title": "Congratulations to Stella! Great job defending Mphil thesis!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2021-60-xiaona-s-paper-is-finally-accepted-by-nature-com",
+      "date": "June 2021",
+      "year": 2021,
+      "category": null,
+      "title": "Xiaona's paper is finally accepted by Nature Communications!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2021-61-yile-s-paper-is-published-on-briefings-in-bioinf",
+      "date": "May 2021",
+      "year": 2021,
+      "category": null,
+      "title": "Yile's paper is published on Briefings in Bioinformatics!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2021-62-chinese-new-year-s-party",
+      "date": "Feb 2021",
+      "year": 2021,
+      "category": null,
+      "title": "Chinese new year's party",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2020-63-lab-hiking",
+      "date": "Oct 2020",
+      "year": 2020,
+      "category": null,
+      "title": "Lab hiking",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2020-64-welcome-new-member-manyi-wen",
+      "date": "Aug 2020",
+      "year": 2020,
+      "category": null,
+      "title": "Welcome new member: Manyi Wen!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2020-65-welcome-national-security-law-for-hksar",
+      "date": "July 2020",
+      "year": 2020,
+      "category": null,
+      "title": "Welcome National Security Law for HKSAR!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2020-66-congratulations-to-dr-yile-huang-dr-yingzhe-ding",
+      "date": "June 2020",
+      "year": 2020,
+      "category": null,
+      "title": "Congratulations to Dr. Yile Huang, Dr. Yingzhe Ding and Dr. Suyang Zhang!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    },
+    {
+      "id": "news-2020-67-farewell-to-dr-yu-zhao-dr-yuying-li",
+      "date": "June 2020",
+      "year": 2020,
+      "category": null,
+      "title": "Farewell to Dr. Yu Zhao & Dr. Yuying Li!",
+      "summary": null,
+      "external_url": null,
+      "homepage_featured": false
+    }
+  ]
+}

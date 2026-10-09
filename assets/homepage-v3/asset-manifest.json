@@ -1,0 +1,130 @@
+{
+  "note": "Responsive WebP derivatives; source images remain intact alongside them.",
+  "images": {
+    "lab-group.jpg": {
+      "source_bytes": 191613,
+      "derivatives": [
+        {
+          "file": "lab-group-720.webp",
+          "width": 720,
+          "height": 367,
+          "bytes": 34928
+        },
+        {
+          "file": "lab-group-1200.webp",
+          "width": 1200,
+          "height": 612,
+          "bytes": 70482
+        },
+        {
+          "file": "lab-group-1800.webp",
+          "width": 1800,
+          "height": 918,
+          "bytes": 125082
+        }
+      ]
+    },
+    "yy1-ccl5-figure-7.jpg": {
+      "source_bytes": 66433,
+      "derivatives": [
+        {
+          "file": "yy1-ccl5-figure-7-480.webp",
+          "width": 480,
+          "height": 322,
+          "bytes": 33714
+        },
+        {
+          "file": "yy1-ccl5-figure-7-685.webp",
+          "width": 685,
+          "height": 459,
+          "bytes": 58744
+        }
+      ]
+    },
+    "lockd.jpg": {
+      "source_bytes": 34560,
+      "derivatives": [
+        {
+          "file": "lockd-480.webp",
+          "width": 480,
+          "height": 357,
+          "bytes": 20608
+        },
+        {
+          "file": "lockd-622.webp",
+          "width": 622,
+          "height": 462,
+          "bytes": 30734
+        }
+      ]
+    },
+    "multiomics.jpg": {
+      "source_bytes": 59730,
+      "derivatives": [
+        {
+          "file": "multiomics-480.webp",
+          "width": 480,
+          "height": 551,
+          "bytes": 48648
+        },
+        {
+          "file": "multiomics-507.webp",
+          "width": 507,
+          "height": 582,
+          "bytes": 51372
+        }
+      ]
+    },
+    "ythdc1.jpg": {
+      "source_bytes": 36933,
+      "derivatives": [
+        {
+          "file": "ythdc1-480.webp",
+          "width": 480,
+          "height": 376,
+          "bytes": 34820
+        }
+      ]
+    },
+    "atf3.webp": {
+      "source_bytes": 267878,
+      "derivatives": [
+        {
+          "file": "atf3-680.webp",
+          "width": 680,
+          "height": 813,
+          "bytes": 87344
+        },
+        {
+          "file": "atf3-1200.webp",
+          "width": 1200,
+          "height": 1434,
+          "bytes": 178734
+        }
+      ]
+    },
+    "sciadv-3d-genome.jpg": {
+      "source_bytes": 387352,
+      "derivatives": [
+        {
+          "file": "sciadv-3d-genome-576.webp",
+          "width": 576,
+          "height": 751,
+          "bytes": 124920
+        },
+        {
+          "file": "sciadv-3d-genome-900.webp",
+          "width": 900,
+          "height": 1173,
+          "bytes": 258472
+        }
+      ]
+    },
+    "atf3.jpeg-fallback": {
+      "file": "atf3-1200.jpg",
+      "width": 1200,
+      "height": 1434,
+      "bytes": 255310
+    }
+  }
+}

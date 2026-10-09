@@ -1,0 +1,184 @@
+{
+  "title": "Research",
+  "intro": "Wang Lab connects skeletal muscle stem cell biology and regeneration with the ways aging changes repair. The work spans cellular and molecular regulation, genomics, computational approaches, and intervention studies.",
+  "sequence": [
+    "Skeletal muscle biology",
+    "Muscle stem cells",
+    "Regeneration",
+    "Aging / sarcopenia",
+    "Cellular and molecular mechanisms",
+    "Genomics / multi-omics",
+    "Computational approaches",
+    "Intervention"
+  ],
+  "themes": [
+    {
+      "id": "muscle-stem-cells",
+      "number": "01",
+      "eyebrow": "Muscle stem cell biology & regeneration",
+      "title": "Muscle stem cells and the work of repair",
+      "question": "How do muscle stem cells remain ready to repair muscle and respond after injury?",
+      "paragraphs": [
+        "Adult muscle stem cells (MuSCs) support muscle growth and repair. After injury, they activate, proliferate and differentiate; a portion of the population returns to a quiescent state.",
+        "The lab’s public studies examine intrinsic regulators of these state changes alongside signals from the surrounding niche. The Lockd–DHX36 study links a muscle-stem-cell regulator to myoblast proliferation and muscle regeneration."
+      ],
+      "concepts": [
+        "MuSC state",
+        "Quiescence and activation",
+        "Proliferation and differentiation",
+        "Niche signals"
+      ],
+      "approaches": [
+        "Molecular regulation",
+        "Functional studies of muscle-stem-cell proliferation and regeneration"
+      ],
+      "figure_side": "right",
+      "figure": {
+        "src": "/assets/muscle-stem-cells.jpg",
+        "alt": "Published schematic of muscle stem-cell quiescence, injury response, self-renewal and differentiation, alongside the Lockd–DHX36 pathway.",
+        "width": 622,
+        "height": 462,
+        "caption": "Lockd–DHX36 research schematic",
+        "publication_id": "pub-2022-lockd-promotes-myoblast-proliferation-and-muscle-regener-4"
+      },
+      "publication_ids": [
+        "pub-2022-lockd-promotes-myoblast-proliferation-and-muscle-regener-4",
+        "pub-2023-nuclear-m6a-reader-ythdc1-promotes-muscle-stem-cell-acti-5",
+        "pub-2026-in-vivo-systematic-detection-of-the-outcomes-of-crispr-c-3"
+      ]
+    },
+    {
+      "id": "muscle-aging",
+      "number": "02",
+      "eyebrow": "Muscle aging & sarcopenia",
+      "title": "Regeneration across an aging muscle",
+      "question": "How does age change skeletal muscle and the systems that support repair?",
+      "paragraphs": [
+        "The lab’s public research record includes studies of age-associated changes in skeletal muscle, muscle stem cells and sarcopenia.",
+        "A 2025 study profiles young and aged human skeletal muscle using single-nucleus multi-omics and examines cellular senescence. A separate 2023 study maps three-dimensional genome organization across muscle-stem-cell lineage progression and aging."
+      ],
+      "concepts": [
+        "Skeletal muscle aging",
+        "Sarcopenia",
+        "Stem-cell lineage progression",
+        "Cellular senescence"
+      ],
+      "approaches": [
+        "Human skeletal-muscle profiling",
+        "Single-nucleus multi-omics",
+        "Genome-organization analysis"
+      ],
+      "figure_side": "right",
+      "figure": {
+        "src": "/assets/multiomics.jpg",
+        "alt": "Published workflow for single-nucleus multi-omics profiling of young and aged human hamstring muscle, followed by senescence profiling and analysis.",
+        "width": 507,
+        "height": 582,
+        "caption": "Single-nucleus multi-omics in aging human muscle",
+        "publication_id": "pub-2025-multiomics-and-cellular-senescence-profiling-of-aging-hu-8"
+      },
+      "publication_ids": [
+        "pub-2025-multiomics-and-cellular-senescence-profiling-of-aging-hu-8",
+        "pub-2023-multiscale-3d-genome-reorganization-during-skeletal-musc-4"
+      ]
+    },
+    {
+      "id": "senescence-niche",
+      "number": "03",
+      "eyebrow": "Cellular senescence & muscle niche",
+      "title": "Changes within the cell and its surroundings",
+      "question": "How do cellular senescence and niche signaling appear in published studies of muscle aging and disease?",
+      "paragraphs": [
+        "Two distinct lines in the public record address these questions. A 2025 study examines YY1–CCL5 signaling between muscle stem cells and niche cells in a Duchenne muscular dystrophy mouse model.",
+        "A separate 2026 publication focuses on cellular senescence in skeletal muscle regeneration. These papers are presented as related areas of inquiry, not as evidence for one shared mechanism."
+      ],
+      "concepts": [
+        "Muscle stem-cell niche",
+        "YY1–CCL5 signaling",
+        "Duchenne muscular dystrophy model",
+        "Cellular senescence"
+      ],
+      "approaches": [
+        "Published study of niche signaling in a mouse model",
+        "Studies of senescence in skeletal muscle"
+      ],
+      "figure_side": "left",
+      "figure": {
+        "src": "/assets/stem-cell-niche.jpg",
+        "alt": "Published schematic of YY1–CCL5 signaling between muscle stem cells, macrophages and fibroadipogenic progenitors in a dystrophic muscle model.",
+        "width": 685,
+        "height": 459,
+        "caption": "YY1–CCL5 signaling in a dystrophic muscle model",
+        "publication_id": "pub-2025-skeletal-muscle-stem-cells-modulate-niche-function-in-du-10"
+      },
+      "publication_ids": [
+        "pub-2025-skeletal-muscle-stem-cells-modulate-niche-function-in-du-10",
+        "pub-2026-cellular-senescence-in-skeletal-muscle-regeneration-2"
+      ]
+    },
+    {
+      "id": "genome-regulation",
+      "number": "04",
+      "eyebrow": "Genome regulation, single-cell genomics & multi-omics",
+      "title": "Regulation across RNA and genome organization",
+      "question": "How are RNA and chromatin regulators related to muscle stem-cell state and lineage progression?",
+      "paragraphs": [
+        "Published studies in the lab’s record examine RNA processing, chromatin and genome organization in skeletal muscle stem cells. One study describes YTHDC1 as a regulator of mRNA splicing and nuclear export during muscle stem-cell activation and proliferation.",
+        "Other studies report three-dimensional genome reorganization during lineage progression and aging, and DNA G-quadruplex profiling in muscle stem cells. These works address different regulatory layers and remain individually linked to their publications below."
+      ],
+      "concepts": [
+        "RNA splicing and export",
+        "Chromatin organization",
+        "Three-dimensional genome",
+        "DNA G-quadruplexes"
+      ],
+      "approaches": [
+        "Single-cell and genomic profiling",
+        "RNA regulation",
+        "Genome-organization analysis"
+      ],
+      "figure_side": "right",
+      "figure": {
+        "src": "/assets/rna-regulation.jpg",
+        "alt": "Published diagram of YTHDC1-linked RNA splicing and nuclear export during muscle stem-cell activation and proliferation.",
+        "width": 510,
+        "height": 400,
+        "caption": "YTHDC1-linked RNA processing in muscle stem cells",
+        "publication_id": "pub-2023-nuclear-m6a-reader-ythdc1-promotes-muscle-stem-cell-acti-5"
+      },
+      "publication_ids": [
+        "pub-2023-nuclear-m6a-reader-ythdc1-promotes-muscle-stem-cell-acti-5",
+        "pub-2023-multiscale-3d-genome-reorganization-during-skeletal-musc-4",
+        "pub-2025-dna-g-quadruplex-profiling-in-skeletal-muscle-stem-cells-5"
+      ]
+    },
+    {
+      "id": "computation-intervention",
+      "number": "05",
+      "eyebrow": "Computational biology & therapeutic discovery",
+      "title": "From integrated profiles to intervention questions",
+      "question": "How can computational approaches and published profiles support the study of muscle aging and intervention?",
+      "paragraphs": [
+        "The public publication list includes integrated profiling of aging human muscle and a 2026 computational tool for predicting chromatin-associated RNA-binding proteins. These are examples of computation and multi-omics in the record; biology remains the central question.",
+        "Published studies also examine intervention hypotheses in defined muscle-aging and muscular-dystrophy contexts. The sarcopenia paper describes Maraviroc as a senotherapeutic approach, while the dystrophic-muscle study discusses therapeutic intervention through the YY1–CCL5 axis. This page makes no claim of clinical efficacy."
+      ],
+      "concepts": [
+        "Integrated profiles",
+        "Computational prediction",
+        "Intervention studies"
+      ],
+      "approaches": [
+        "Single-nucleus multi-omics",
+        "Protein language model-based prediction",
+        "Experimental study in defined disease contexts"
+      ],
+      "figure_side": null,
+      "figure": null,
+      "publication_ids": [
+        "pub-2026-carbp-pred-leveraging-protein-language-models-for-the-pr-1",
+        "pub-2025-multiomics-and-cellular-senescence-profiling-of-aging-hu-8",
+        "pub-2025-skeletal-muscle-stem-cells-modulate-niche-function-in-du-10"
+      ]
+    }
+  ]
+}

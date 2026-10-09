@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "publication_id": "pub-2025-skeletal-muscle-stem-cells-modulate-niche-function-in-du-10",
+    "src": "/assets/dmd-yy1-ccl5-figure-7.jpg",
+    "alt": "Schematic comparing control and YY1-deficient dystrophic mouse muscle, linking stem-cell CCL5/CCR5 signaling to macrophage recruitment, TGFβ1-associated fibro-adipogenic progenitor persistence, fibrosis and maraviroc blockade.",
+    "width": 685,
+    "height": 459,
+    "caption": "YY1–CCL5 regulation of the muscle stem-cell niche in a DMD mouse model",
+    "summary": "In a Duchenne muscular dystrophy mouse model, YY1 loss in muscle stem cells activated CCL5/CCR5 signaling, increasing macrophage recruitment and altering crosstalk with fibro-adipogenic progenitors.",
+    "citation": "https://www.nature.com/articles/s41467-025-56474-w",
+    "journal": "Nature Communications",
+    "year": 2025
+  }
+}
