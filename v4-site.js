@@ -35,7 +35,7 @@ function renderHeader(currentPage) {
   const root = document.querySelector("#site-header");
   const header = el("header", "hero-header");
   const wordmark = el("a", "wordmark");
-  wordmark.href = "/homepage-v4/";
+  wordmark.href = "/";
   wordmark.setAttribute("aria-label", "Wang Lab Homepage V4 preview");
   wordmark.append(el("span", "wordmark-name", "WANG LAB"), el("span", "wordmark-subtitle", "Skeletal Muscle Biology · CUHK"));
 
@@ -55,12 +55,12 @@ function renderHeader(currentPage) {
   nav.setAttribute("aria-label", "Primary navigation");
   nav.setAttribute("data-navigation", "");
   const links = [
-    ["Research", "/homepage-v4/research/", "research"],
-    ["People", "/homepage-v4/people/", "people"],
-    ["Publications", "/homepage-v4/publications/", "publications"],
-    ["Funded Projects", "/homepage-v4/funded-projects/", "funded-projects"],
-    ["News", "/homepage-v4/news/", "news"],
-    ["Fun", "/homepage-v4/fun/", "fun"],
+    ["Research", "/research/", "research"],
+    ["People", "/people/", "people"],
+    ["Publications", "/publications/", "publications"],
+    ["Funded Projects", "/funded-projects/", "funded-projects"],
+    ["News", "/news/", "news"],
+    ["Fun", "/fun/", "fun"],
   ];
   links.forEach(([label, href, key]) => {
     const link = el("a", "", label);
@@ -69,7 +69,7 @@ function renderHeader(currentPage) {
     nav.append(link);
   });
   const join = el("a", "nav-join");
-  join.href = "/homepage-v4/join-us/";
+  join.href = "/join-us/";
   appendText(join, "Join the lab ");
   const arrow = el("span", "", "↗");
   arrow.setAttribute("aria-hidden", "true");
@@ -125,9 +125,9 @@ function renderFooter(site, currentPage) {
   nav.setAttribute("aria-label", "Footer navigation");
   nav.append(el("p", "footer-kicker", site.footer.label));
   [
-    ["Research", "/homepage-v4/research/"], ["People", "/homepage-v4/people/"],
-    ["Publications", "/homepage-v4/publications/"], ["Funded Projects", "/homepage-v4/funded-projects/"],
-    ["News", "/homepage-v4/news/"], ["Fun", "/homepage-v4/fun/"], ["Join Us", "/homepage-v4/join-us/"], ["Contact", "/homepage-v4/contact/"],
+    ["Research", "/research/"], ["People", "/people/"],
+    ["Publications", "/publications/"], ["Funded Projects", "/funded-projects/"],
+    ["News", "/news/"], ["Fun", "/fun/"], ["Join Us", "/join-us/"], ["Contact", "/contact/"],
   ].forEach(([label, href]) => {
     const link = el("a", "", label);
     link.href = href;
@@ -141,7 +141,7 @@ function renderFooter(site, currentPage) {
   const top = el("a", "", site.footer.back_to_top);
   top.href = "#main";
   const contactPage = el("a", "", "Contact page ↗");
-  contactPage.href = "/homepage-v4/contact/";
+  contactPage.href = "/contact/";
   if (currentPage === "contact") contactPage.setAttribute("aria-current", "page");
   bottom.append(top, contactPage);
   footer.append(main, bottom);
@@ -903,7 +903,7 @@ function renderJoinPage(joinData) {
   ctaTitle.id = "join-contact-title";
   ctaCopy.append(ctaTitle, el("p", "", joinData.contact_text));
   const link = el("a", "section-link");
-  link.href = "/homepage-v4/contact/";
+  link.href = "/contact/";
   link.append(document.createTextNode(joinData.cta_label));
   const arrow = el("span", "", "↗");
   arrow.setAttribute("aria-hidden", "true");
@@ -943,7 +943,7 @@ function renderContactPage(site) {
   const join = el("section", "contact-block");
   join.append(el("h2", "", contactData.join_title), el("p", "contact-intro", contactData.join_intro));
   const opportunities = el("a", "section-link");
-  opportunities.href = "/homepage-v4/join-us/";
+  opportunities.href = "/join-us/";
   opportunities.append(document.createTextNode(contactData.join_link_label));
   const arrow = el("span", "", "↗");
   arrow.setAttribute("aria-hidden", "true");
@@ -969,28 +969,28 @@ async function start() {
   main.setAttribute("aria-busy", "true");
   renderHeader(page);
   try {
-    const site = await readJSON("/homepage-v4/data/site.json");
+    const site = await readJSON("/data/site.json");
     renderFooter(site, page);
     let intro = heroCopy[page].intro;
     let content;
     if (page === "research") {
-      const [research, publicationData] = await Promise.all([readJSON("/homepage-v4/data/research.json"), readJSON("/homepage-v4/data/publications.json")]);
+      const [research, publicationData] = await Promise.all([readJSON("/data/research.json"), readJSON("/data/publications.json")]);
       intro = research.intro;
       content = renderResearchPage(research, publicationData);
     } else if (page === "people") {
-      const people = await readJSON("/homepage-v4/data/people.json");
+      const people = await readJSON("/data/people.json");
       content = renderPeoplePage(people, site);
     } else if (page === "publications") {
-      const publicationData = await readJSON("/homepage-v4/data/publications.json");
+      const publicationData = await readJSON("/data/publications.json");
       content = renderPublicationsPage(publicationData);
     } else if (page === "news") {
-      const news = await readJSON("/homepage-v4/data/news.json");
+      const news = await readJSON("/data/news.json");
       content = renderNewsPage(news);
     } else if (page === "funded-projects") {
-      const projects = await readJSON("/homepage-v4/data/funded-projects.json");
+      const projects = await readJSON("/data/funded-projects.json");
       content = renderFundedProjectsPage(projects);
     } else if (page === "fun") {
-      const fun = await readJSON("/homepage-v4/data/fun.json");
+      const fun = await readJSON("/data/fun.json");
       content = renderFunPage(fun);
     } else if (page === "join-us") {
       intro = site.join_us.intro;
@@ -1002,7 +1002,7 @@ async function start() {
     main.replaceChildren(renderHero(page, intro), content);
     main.setAttribute("aria-busy", "false");
   } catch {
-    renderFooter(await readJSON("/homepage-v4/data/site.json").catch(() => ({
+    renderFooter(await readJSON("/data/site.json").catch(() => ({
       institution: { department: "", institute: "" },
       principal_investigator: { display_name: "Wang Lab", email: "", profile_url: "" },
       footer: { label: "Explore", copyright_year: "", back_to_top: "Back to top ↑" },

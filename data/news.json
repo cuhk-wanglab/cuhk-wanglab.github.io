@@ -11,15 +11,15 @@
       "homepage_featured": true,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2026-01-01.webp",
+          "src": "/assets/news/2026-01-01.webp",
           "alt": "Participants at the 2026 CUHK–CUHK(SZ) 1+1+1 Joint Symposium."
         },
         {
-          "src": "/homepage-v4/assets/news/2026-01-02.webp",
+          "src": "/assets/news/2026-01-02.webp",
           "alt": "A discussion session at the 2026 CUHK–CUHK(SZ) 1+1+1 Joint Symposium."
         },
         {
-          "src": "/homepage-v4/assets/news/2026-01-03.webp",
+          "src": "/assets/news/2026-01-03.webp",
           "alt": "Poster for the 2026 CUHK–CUHK(SZ) 1+1+1 Joint Symposium."
         }
       ]
@@ -35,15 +35,15 @@
       "homepage_featured": true,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2026-02-01.webp",
+          "src": "/assets/news/2026-02-01.webp",
           "alt": "Participants on stage at the 2026 Chromatin Biology and Epigenetics Symposium in Taiyuan."
         },
         {
-          "src": "/homepage-v4/assets/news/2026-02-02.webp",
+          "src": "/assets/news/2026-02-02.webp",
           "alt": "The award presentation at the 2026 Chromatin Biology and Epigenetics Symposium in Taiyuan."
         },
         {
-          "src": "/homepage-v4/assets/news/2026-02-03.webp",
+          "src": "/assets/news/2026-02-03.webp",
           "alt": "A symposium scene from the 2026 Chromatin Biology and Epigenetics Symposium in Taiyuan."
         }
       ]
@@ -59,11 +59,11 @@
       "homepage_featured": false,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2026-03-01.webp",
+          "src": "/assets/news/2026-03-01.webp",
           "alt": "Professor Huating Wang speaking at the 2026 Chromatin Biology and Epigenetics Symposium in Taiyuan."
         },
         {
-          "src": "/homepage-v4/assets/news/2026-03-02.webp",
+          "src": "/assets/news/2026-03-02.webp",
           "alt": "Professor Huating Wang at the 2026 Chromatin Biology and Epigenetics Symposium in Taiyuan."
         }
       ]
@@ -79,11 +79,11 @@
       "homepage_featured": false,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2026-04-01.webp",
+          "src": "/assets/news/2026-04-01.webp",
           "alt": "Participants at the 11th National Symposium on Skeletal Muscle Biology in Datong."
         },
         {
-          "src": "/homepage-v4/assets/news/2026-04-02.webp",
+          "src": "/assets/news/2026-04-02.webp",
           "alt": "A group photograph from the 11th National Symposium on Skeletal Muscle Biology in Datong."
         }
       ]
@@ -99,7 +99,7 @@
       "homepage_featured": false,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2026-05-01.webp",
+          "src": "/assets/news/2026-05-01.webp",
           "alt": "Dr. Zhang Suyang receiving a poster award at the 11th National Symposium on Skeletal Muscle Biology."
         }
       ]
@@ -115,11 +115,11 @@
       "homepage_featured": false,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2026-06-01.webp",
+          "src": "/assets/news/2026-06-01.webp",
           "alt": "Guest speaker Professor Yuan presenting at Wang Lab."
         },
         {
-          "src": "/homepage-v4/assets/news/2026-06-02.webp",
+          "src": "/assets/news/2026-06-02.webp",
           "alt": "Professor Yuan with Wang Lab members after a talk."
         }
       ]
@@ -135,7 +135,7 @@
       "homepage_featured": true,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2026-07-01.webp",
+          "src": "/assets/news/2026-07-01.webp",
           "alt": "The Strategic Topics Grant announcement for Professor Huating Wang's team."
         }
       ]
@@ -151,11 +151,11 @@
       "homepage_featured": false,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2026-08-01.webp",
+          "src": "/assets/news/2026-08-01.webp",
           "alt": "Guest speaker Professor Jia Wang presenting at Wang Lab."
         },
         {
-          "src": "/homepage-v4/assets/news/2026-08-02.webp",
+          "src": "/assets/news/2026-08-02.webp",
           "alt": "Professor Jia Wang with Wang Lab members after a talk."
         }
       ]
@@ -171,7 +171,7 @@
       "homepage_featured": false,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2026-09-01.webp",
+          "src": "/assets/news/2026-09-01.webp",
           "alt": "Dr. Liu Xingyuan and Dr. Zhou Qin."
         }
       ]
@@ -187,7 +187,7 @@
       "homepage_featured": false,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2026-10-01.webp",
+          "src": "/assets/news/2026-10-01.webp",
           "alt": "Geoffery with Wang Lab members during his internship."
         }
       ]
@@ -243,7 +243,7 @@
       "homepage_featured": false,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2026-15-01.webp",
+          "src": "/assets/news/2026-15-01.webp",
           "alt": "Xingyuan presenting a poster at the 13th Xiamen Winter Symposium."
         }
       ]
@@ -269,7 +269,7 @@
       "homepage_featured": false,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2025-17-01.webp",
+          "src": "/assets/news/2025-17-01.webp",
           "alt": "Professor Shihuan Kuang with Wang Lab members during his visit."
         }
       ]
@@ -285,7 +285,7 @@
       "homepage_featured": false,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2025-18-01.webp",
+          "src": "/assets/news/2025-18-01.webp",
           "alt": "A presentation at the 10th National Symposium on Skeletal Muscle Biology in Yangzhou."
         }
       ]
@@ -301,7 +301,7 @@
       "homepage_featured": false,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2025-19-01.webp",
+          "src": "/assets/news/2025-19-01.webp",
           "alt": "Participants at the CUHK–CityU joint symposium on G4 biology and chemistry."
         }
       ]
@@ -327,7 +327,7 @@
       "homepage_featured": false,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2025-21-01.webp",
+          "src": "/assets/news/2025-21-01.webp",
           "alt": "Wang Lab members at the EORS meeting in Davos."
         }
       ]
@@ -343,11 +343,11 @@
       "homepage_featured": false,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2025-22-01.webp",
+          "src": "/assets/news/2025-22-01.webp",
           "alt": "Dr. Yang Feng with colleagues."
         },
         {
-          "src": "/homepage-v4/assets/news/2025-22-02.webp",
+          "src": "/assets/news/2025-22-02.webp",
           "alt": "Dr. Li Chuhan with colleagues."
         }
       ]
@@ -363,7 +363,7 @@
       "homepage_featured": false,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2025-23-01.webp",
+          "src": "/assets/news/2025-23-01.webp",
           "alt": "Fu Yang presenting at ISSCR."
         }
       ]
@@ -389,7 +389,7 @@
       "homepage_featured": false,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2025-25-01.webp",
+          "src": "/assets/news/2025-25-01.webp",
           "alt": "Wang Lab members at Sun Qiang's farewell."
         }
       ]
@@ -455,7 +455,7 @@
       "homepage_featured": false,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2025-31-01.webp",
+          "src": "/assets/news/2025-31-01.webp",
           "alt": "Wang Lab members during the 2025 photo-taking day."
         }
       ]
@@ -521,7 +521,7 @@
       "homepage_featured": false,
       "images": [
         {
-          "src": "/homepage-v4/assets/news/2023-37-01.webp",
+          "src": "/assets/news/2023-37-01.webp",
           "alt": "Suyang presenting at the 8th China Muscle Society Meeting."
         }
       ]

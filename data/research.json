@@ -34,7 +34,7 @@
       ],
       "figure_side": "right",
       "figure": {
-        "src": "/homepage-v4/assets/muscle-stem-cells.jpg",
+        "src": "/assets/muscle-stem-cells.jpg",
         "alt": "Published schematic of muscle stem-cell quiescence, injury response, self-renewal and differentiation, alongside the Lockd–DHX36 pathway.",
         "width": 622,
         "height": 462,
@@ -70,7 +70,7 @@
       ],
       "figure_side": "right",
       "figure": {
-        "src": "/homepage-v4/assets/multiomics.jpg",
+        "src": "/assets/multiomics.jpg",
         "alt": "Published workflow for single-nucleus multi-omics profiling of young and aged human hamstring muscle, followed by senescence profiling and analysis.",
         "width": 507,
         "height": 582,
@@ -104,7 +104,7 @@
       ],
       "figure_side": "left",
       "figure": {
-        "src": "/homepage-v4/assets/stem-cell-niche.jpg",
+        "src": "/assets/stem-cell-niche.jpg",
         "alt": "Published schematic of YY1–CCL5 signaling between muscle stem cells, macrophages and fibroadipogenic progenitors in a dystrophic muscle model.",
         "width": 685,
         "height": 459,
@@ -139,7 +139,7 @@
       ],
       "figure_side": "right",
       "figure": {
-        "src": "/homepage-v4/assets/rna-regulation.jpg",
+        "src": "/assets/rna-regulation.jpg",
         "alt": "Published diagram of YTHDC1-linked RNA splicing and nuclear export during muscle stem-cell activation and proliferation.",
         "width": 510,
         "height": 400,
