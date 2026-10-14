@@ -55,10 +55,12 @@ function renderHeader(currentPage) {
   nav.setAttribute("aria-label", "Primary navigation");
   nav.setAttribute("data-navigation", "");
   const links = [
-    ["Research", "/research/", "research"],
-    ["People", "/people/", "people"],
-    ["Publications", "/publications/", "publications"],
-    ["News", "/news/", "news"],
+    ["Research", "/homepage-v4/research/", "research"],
+    ["People", "/homepage-v4/people/", "people"],
+    ["Publications", "/homepage-v4/publications/", "publications"],
+    ["Funded Projects", "/homepage-v4/funded-projects/", "funded-projects"],
+    ["News", "/homepage-v4/news/", "news"],
+    ["Fun", "/homepage-v4/fun/", "fun"],
   ];
   links.forEach(([label, href, key]) => {
     const link = el("a", "", label);
@@ -67,7 +69,7 @@ function renderHeader(currentPage) {
     nav.append(link);
   });
   const join = el("a", "nav-join");
-  join.href = "/join-us/";
+  join.href = "/homepage-v4/join-us/";
   appendText(join, "Join the lab ");
   const arrow = el("span", "", "↗");
   arrow.setAttribute("aria-hidden", "true");
@@ -123,8 +125,9 @@ function renderFooter(site, currentPage) {
   nav.setAttribute("aria-label", "Footer navigation");
   nav.append(el("p", "footer-kicker", site.footer.label));
   [
-    ["Research", "/research/"], ["People", "/people/"],
-    ["Publications", "/publications/"], ["News", "/news/"],
+    ["Research", "/homepage-v4/research/"], ["People", "/homepage-v4/people/"],
+    ["Publications", "/homepage-v4/publications/"], ["Funded Projects", "/homepage-v4/funded-projects/"],
+    ["News", "/homepage-v4/news/"], ["Fun", "/homepage-v4/fun/"], ["Join Us", "/homepage-v4/join-us/"], ["Contact", "/homepage-v4/contact/"],
   ].forEach(([label, href]) => {
     const link = el("a", "", label);
     link.href = href;
@@ -138,7 +141,7 @@ function renderFooter(site, currentPage) {
   const top = el("a", "", site.footer.back_to_top);
   top.href = "#main";
   const contactPage = el("a", "", "Contact page ↗");
-  contactPage.href = "/contact/";
+  contactPage.href = "/homepage-v4/contact/";
   if (currentPage === "contact") contactPage.setAttribute("aria-current", "page");
   bottom.append(top, contactPage);
   footer.append(main, bottom);
@@ -168,6 +171,18 @@ const heroCopy = {
     kicker: "Wang Lab · News archive",
     cue: "Browse the archive",
     intro: "Research, events and milestones from the Wang Lab community.",
+  },
+  "funded-projects": {
+    lines: ["Research,", "Supported"],
+    kicker: "Wang Lab · Funded Projects",
+    cue: "Explore funding records",
+    intro: "A record of competitive grants and collaborative research projects listed by the Wang Lab.",
+  },
+  fun: {
+    lines: ["The Lab,", "Beyond the Bench"],
+    kicker: "Wang Lab · Fun",
+    cue: "Explore lab life",
+    intro: "Field trips, celebrations and shared moments from the Wang Lab photo archive.",
   },
   "join-us": {
     lines: ["Join Us in Decoding", "Muscle Biology"],
@@ -699,6 +714,25 @@ function renderNewsEntry(record) {
     title.textContent = record.title;
   }
   item.append(meta, title);
+  if (record.images?.length) {
+    const gallery = el("div", "news-entry-gallery");
+    gallery.setAttribute("aria-label", `Photos for ${record.title}`);
+    record.images.forEach((photo) => {
+      const link = el("a", "news-entry-photo");
+      link.href = photo.src;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.setAttribute("aria-label", `Open photo: ${photo.alt}`);
+      const image = el("img");
+      image.src = photo.src;
+      image.alt = photo.alt;
+      image.loading = "lazy";
+      image.decoding = "async";
+      link.append(image);
+      gallery.append(link);
+    });
+    item.append(gallery);
+  }
   return item;
 }
 
@@ -727,6 +761,108 @@ function renderNewsPage(data) {
     group.append(yearHeading, list);
     inner.append(group);
   });
+  section.append(inner);
+  content.append(section);
+  return content;
+}
+
+function renderFundedProjectsPage(data) {
+  const content = el("div", "page-content");
+  content.id = "page-content";
+  const section = el("section", "section-pad funded-archive");
+  const inner = el("div", "content-width");
+  const heading = el("div", "funded-archive-heading");
+  heading.append(sectionLabel("01", "Funding record"));
+  const headingCopy = el("div");
+  headingCopy.append(
+    el("h2", "", "Research supported across the years."),
+    el("p", "lede", "Project names, roles, periods and amounts are transcribed from the lab’s public funding archive."),
+  );
+  heading.append(headingCopy);
+  inner.append(heading);
+
+  const items = data.items || [];
+  const sections = [...new Set(items.map((item) => item.source_section))];
+  sections.forEach((sectionName, sectionIndex) => {
+    const sectionGroup = el("section", "funded-period");
+    sectionGroup.setAttribute("aria-labelledby", `funded-period-${sectionIndex}`);
+    const sectionHeading = el("h3", "funded-period-heading", sectionName);
+    sectionHeading.id = `funded-period-${sectionIndex}`;
+    sectionGroup.append(sectionHeading);
+    const roleNames = [...new Set(items.filter((item) => item.source_section === sectionName).map((item) => item.source_group))];
+    roleNames.forEach((roleName, roleIndex) => {
+      const roleGroup = el("section", "funded-role-group");
+      const roleHeading = el("h4", "funded-role-heading", roleName);
+      roleHeading.id = `funded-period-${sectionIndex}-role-${roleIndex}`;
+      roleGroup.setAttribute("aria-labelledby", roleHeading.id);
+      roleGroup.append(roleHeading);
+      const list = el("ol", "funded-record-list");
+      items.filter((item) => item.source_section === sectionName && item.source_group === roleName).forEach((record) => {
+        const row = el("li", "funded-record");
+        row.append(el("p", "", record.source_text));
+        list.append(row);
+      });
+      roleGroup.append(list);
+      sectionGroup.append(roleGroup);
+    });
+    inner.append(sectionGroup);
+  });
+  section.append(inner);
+  content.append(section);
+  return content;
+}
+
+function renderFunPage(data) {
+  const content = el("div", "page-content");
+  content.id = "page-content";
+  const section = el("section", "section-pad lab-life-archive");
+  section.setAttribute("aria-labelledby", "lab-life-title");
+  const inner = el("div", "content-width");
+  const heading = el("div", "lab-life-heading");
+  heading.append(sectionLabel("01", "Fun / Lab life"));
+  const headingCopy = el("div");
+  const title = el("h2", "", "Good science, good company.");
+  title.id = "lab-life-title";
+  headingCopy.append(title, el("p", "lede", "A photo archive of Wang Lab outings, celebrations and shared moments. Select any image to open it larger."));
+  heading.append(headingCopy);
+  const albums = el("div", "lab-album-list");
+  (data.albums || []).forEach((album) => {
+    const item = el("article", "lab-album");
+    const albumHeading = el("div", "lab-album-heading");
+    if (album.year) albumHeading.append(el("p", "lab-album-year", album.year));
+    albumHeading.append(el("h3", "lab-album-title", album.title));
+    const photos = album.photos?.length ? album.photos : (album.src ? [{ src: album.src, alt: album.alt }] : []);
+    if (photos.length) albumHeading.append(el("span", "lab-album-count", `${photos.length} photos`));
+    item.append(albumHeading);
+
+    if (photos.length) {
+      const photoGrid = el("div", "lab-album-photos");
+      photoGrid.setAttribute("aria-label", `Photos from ${album.title}`);
+      photos.forEach((photo, index) => {
+        const link = el("a", "lab-album-photo");
+        link.href = photo.src;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.setAttribute("aria-label", `Open photo ${index + 1} of ${photos.length} from ${album.title}`);
+        const image = el("img");
+        image.src = photo.src;
+        image.alt = photo.alt || `${album.title} — photo ${index + 1}`;
+        image.loading = "lazy";
+        image.decoding = "async";
+        link.append(image);
+        photoGrid.append(link);
+      });
+      item.append(photoGrid);
+    } else if (album.external_url) {
+      const slideshow = externalLink(album.external_url, "View birthday slideshow ↗");
+      if (slideshow) {
+        slideshow.className = "lab-album-external";
+        item.append(slideshow);
+      }
+    }
+    albums.append(item);
+  });
+  inner.append(heading, albums);
   section.append(inner);
   content.append(section);
   return content;
@@ -767,7 +903,7 @@ function renderJoinPage(joinData) {
   ctaTitle.id = "join-contact-title";
   ctaCopy.append(ctaTitle, el("p", "", joinData.contact_text));
   const link = el("a", "section-link");
-  link.href = "/contact/";
+  link.href = "/homepage-v4/contact/";
   link.append(document.createTextNode(joinData.cta_label));
   const arrow = el("span", "", "↗");
   arrow.setAttribute("aria-hidden", "true");
@@ -807,7 +943,7 @@ function renderContactPage(site) {
   const join = el("section", "contact-block");
   join.append(el("h2", "", contactData.join_title), el("p", "contact-intro", contactData.join_intro));
   const opportunities = el("a", "section-link");
-  opportunities.href = "/join-us/";
+  opportunities.href = "/homepage-v4/join-us/";
   opportunities.append(document.createTextNode(contactData.join_link_label));
   const arrow = el("span", "", "↗");
   arrow.setAttribute("aria-hidden", "true");
@@ -833,23 +969,29 @@ async function start() {
   main.setAttribute("aria-busy", "true");
   renderHeader(page);
   try {
-    const site = await readJSON("/data/site.json");
+    const site = await readJSON("/homepage-v4/data/site.json");
     renderFooter(site, page);
     let intro = heroCopy[page].intro;
     let content;
     if (page === "research") {
-      const [research, publicationData] = await Promise.all([readJSON("/data/research.json"), readJSON("/data/publications.json")]);
+      const [research, publicationData] = await Promise.all([readJSON("/homepage-v4/data/research.json"), readJSON("/homepage-v4/data/publications.json")]);
       intro = research.intro;
       content = renderResearchPage(research, publicationData);
     } else if (page === "people") {
-      const people = await readJSON("/data/people.json");
+      const people = await readJSON("/homepage-v4/data/people.json");
       content = renderPeoplePage(people, site);
     } else if (page === "publications") {
-      const publicationData = await readJSON("/data/publications.json");
+      const publicationData = await readJSON("/homepage-v4/data/publications.json");
       content = renderPublicationsPage(publicationData);
     } else if (page === "news") {
-      const news = await readJSON("/data/news.json");
+      const news = await readJSON("/homepage-v4/data/news.json");
       content = renderNewsPage(news);
+    } else if (page === "funded-projects") {
+      const projects = await readJSON("/homepage-v4/data/funded-projects.json");
+      content = renderFundedProjectsPage(projects);
+    } else if (page === "fun") {
+      const fun = await readJSON("/homepage-v4/data/fun.json");
+      content = renderFunPage(fun);
     } else if (page === "join-us") {
       intro = site.join_us.intro;
       content = renderJoinPage(site.join_us);
@@ -860,7 +1002,7 @@ async function start() {
     main.replaceChildren(renderHero(page, intro), content);
     main.setAttribute("aria-busy", "false");
   } catch {
-    renderFooter(await readJSON("/data/site.json").catch(() => ({
+    renderFooter(await readJSON("/homepage-v4/data/site.json").catch(() => ({
       institution: { department: "", institute: "" },
       principal_investigator: { display_name: "Wang Lab", email: "", profile_url: "" },
       footer: { label: "Explore", copyright_year: "", back_to_top: "Back to top ↑" },

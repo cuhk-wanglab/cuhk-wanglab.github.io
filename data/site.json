@@ -1,5 +1,5 @@
 {
-  "canonical_base": "https://cuhkwanglab.github.io/",
+  "canonical_base": "https://cuhk-wanglab.github.io/homepage-v4/",
   "navigation": [
     {
       "label": "Home",
@@ -8,33 +8,43 @@
     },
     {
       "label": "Research",
-      "href": "/research/",
-      "route": "/research/"
+      "href": "/homepage-v4/research/",
+      "route": "/homepage-v4/research/"
     },
     {
       "label": "People",
-      "href": "/people/",
-      "route": "/people/"
+      "href": "/homepage-v4/people/",
+      "route": "/homepage-v4/people/"
     },
     {
       "label": "Publications",
-      "href": "/publications/",
-      "route": "/publications/"
+      "href": "/homepage-v4/publications/",
+      "route": "/homepage-v4/publications/"
+    },
+    {
+      "label": "Funded Projects",
+      "href": "/homepage-v4/funded-projects/",
+      "route": "/homepage-v4/funded-projects/"
     },
     {
       "label": "News",
-      "href": "/news/",
-      "route": "/news/"
+      "href": "/homepage-v4/news/",
+      "route": "/homepage-v4/news/"
+    },
+    {
+      "label": "Fun",
+      "href": "/homepage-v4/fun/",
+      "route": "/homepage-v4/fun/"
     },
     {
       "label": "Join Us",
-      "href": "/join-us/",
-      "route": "/join-us/"
+      "href": "/homepage-v4/join-us/",
+      "route": "/homepage-v4/join-us/"
     },
     {
       "label": "Contact",
-      "href": "/contact/",
-      "route": "/contact/"
+      "href": "/homepage-v4/contact/",
+      "route": "/homepage-v4/contact/"
     }
   ],
   "institution": {

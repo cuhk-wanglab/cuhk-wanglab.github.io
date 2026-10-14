@@ -8,7 +8,21 @@
       "title": "Celebrating the Success of the 2026 CUHK–CUHK(SZ) \"1+1+1\" Joint Symposium: Advancing Cross-Campus Collaboration！",
       "summary": null,
       "external_url": null,
-      "homepage_featured": true
+      "homepage_featured": true,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2026-01-01.webp",
+          "alt": "Participants at the 2026 CUHK–CUHK(SZ) 1+1+1 Joint Symposium."
+        },
+        {
+          "src": "/homepage-v4/assets/news/2026-01-02.webp",
+          "alt": "A discussion session at the 2026 CUHK–CUHK(SZ) 1+1+1 Joint Symposium."
+        },
+        {
+          "src": "/homepage-v4/assets/news/2026-01-03.webp",
+          "alt": "Poster for the 2026 CUHK–CUHK(SZ) 1+1+1 Joint Symposium."
+        }
+      ]
     },
     {
       "id": "news-2026-02-congratulations-to-dr-qiao-yulong-and-dr-yang-fe",
@@ -18,7 +32,21 @@
       "title": "Congratulations to Dr. Qiao Yulong and Dr. Yang Feng won the Best Poster Award at 2026 Chromatin Biology and Epigenetics Symposium in Taiyuan!",
       "summary": null,
       "external_url": null,
-      "homepage_featured": true
+      "homepage_featured": true,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2026-02-01.webp",
+          "alt": "Participants on stage at the 2026 Chromatin Biology and Epigenetics Symposium in Taiyuan."
+        },
+        {
+          "src": "/homepage-v4/assets/news/2026-02-02.webp",
+          "alt": "The award presentation at the 2026 Chromatin Biology and Epigenetics Symposium in Taiyuan."
+        },
+        {
+          "src": "/homepage-v4/assets/news/2026-02-03.webp",
+          "alt": "A symposium scene from the 2026 Chromatin Biology and Epigenetics Symposium in Taiyuan."
+        }
+      ]
     },
     {
       "id": "news-2026-03-prof-huating-wang-gave-talk-at-2026-chromatin-bi",
@@ -28,7 +56,17 @@
       "title": "Prof. Huating Wang gave talk at 2026 Chromatin Biology and Epigenetics Symposium in Taiyuan!",
       "summary": null,
       "external_url": null,
-      "homepage_featured": false
+      "homepage_featured": false,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2026-03-01.webp",
+          "alt": "Professor Huating Wang speaking at the 2026 Chromatin Biology and Epigenetics Symposium in Taiyuan."
+        },
+        {
+          "src": "/homepage-v4/assets/news/2026-03-02.webp",
+          "alt": "Professor Huating Wang at the 2026 Chromatin Biology and Epigenetics Symposium in Taiyuan."
+        }
+      ]
     },
     {
       "id": "news-2026-04-the-11th-national-symposium-on-skeletal-muscle-b",
@@ -38,7 +76,17 @@
       "title": "The 11th National Symposium on Skeletal Muscle Biology was a complete success !",
       "summary": null,
       "external_url": null,
-      "homepage_featured": false
+      "homepage_featured": false,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2026-04-01.webp",
+          "alt": "Participants at the 11th National Symposium on Skeletal Muscle Biology in Datong."
+        },
+        {
+          "src": "/homepage-v4/assets/news/2026-04-02.webp",
+          "alt": "A group photograph from the 11th National Symposium on Skeletal Muscle Biology in Datong."
+        }
+      ]
     },
     {
       "id": "news-2026-05-congratulations-to-dr-zhang-suyang-won-the-best-",
@@ -48,7 +96,13 @@
       "title": "Congratulations to Dr. Zhang Suyang won the Best Poster Award at The 11th National Symposium on Skeletal Muscle Biology in Datong!",
       "summary": null,
       "external_url": null,
-      "homepage_featured": false
+      "homepage_featured": false,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2026-05-01.webp",
+          "alt": "Dr. Zhang Suyang receiving a poster award at the 11th National Symposium on Skeletal Muscle Biology."
+        }
+      ]
     },
     {
       "id": "news-2026-06-guest-speaker-prof-yuan-gave-a-talk-about-ai-in-",
@@ -58,7 +112,17 @@
       "title": "Guest Speaker Prof. Yuan gave a talk about AI in medical data analysis.",
       "summary": null,
       "external_url": null,
-      "homepage_featured": false
+      "homepage_featured": false,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2026-06-01.webp",
+          "alt": "Guest speaker Professor Yuan presenting at Wang Lab."
+        },
+        {
+          "src": "/homepage-v4/assets/news/2026-06-02.webp",
+          "alt": "Professor Yuan with Wang Lab members after a talk."
+        }
+      ]
     },
     {
       "id": "news-2026-07-huge-congrats-to-prof-wang-on-obtaining-the-stg-",
@@ -68,7 +132,13 @@
       "title": "Huge congrats to Prof. Wang on obtaining the STG grant！",
       "summary": null,
       "external_url": null,
-      "homepage_featured": true
+      "homepage_featured": true,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2026-07-01.webp",
+          "alt": "The Strategic Topics Grant announcement for Professor Huating Wang's team."
+        }
+      ]
     },
     {
       "id": "news-2026-08-guest-speaker-prof-jia-wang-gave-a-talk-about-bi",
@@ -78,7 +148,17 @@
       "title": "Guest Speaker Prof. Jia Wang gave a talk about bipartite active X chromosome",
       "summary": null,
       "external_url": null,
-      "homepage_featured": false
+      "homepage_featured": false,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2026-08-01.webp",
+          "alt": "Guest speaker Professor Jia Wang presenting at Wang Lab."
+        },
+        {
+          "src": "/homepage-v4/assets/news/2026-08-02.webp",
+          "alt": "Professor Jia Wang with Wang Lab members after a talk."
+        }
+      ]
     },
     {
       "id": "news-2026-09-congratulations-to-dr-liu-xingyuan-and-dr-zhou-q",
@@ -88,7 +168,13 @@
       "title": "Congratulations to Dr. Liu Xingyuan and Dr. Zhou Qin!",
       "summary": null,
       "external_url": null,
-      "homepage_featured": false
+      "homepage_featured": false,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2026-09-01.webp",
+          "alt": "Dr. Liu Xingyuan and Dr. Zhou Qin."
+        }
+      ]
     },
     {
       "id": "news-2026-10-congrats-intern-geoffery-year-2-cuhk-gps-student",
@@ -98,7 +184,13 @@
       "title": "Congrats Intern Geoffery! Year 2 CUHK GPS Student Completes 1-Month Internship！",
       "summary": null,
       "external_url": null,
-      "homepage_featured": false
+      "homepage_featured": false,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2026-10-01.webp",
+          "alt": "Geoffery with Wang Lab members during his internship."
+        }
+      ]
     },
     {
       "id": "news-2026-11-congratulations-to-xingyuan-on-his-review-on-cel",
@@ -148,7 +240,13 @@
       "title": "Xingyuan won the Best Poster Award at The 13th Xiamen winter symposium - Lipid metabolism and physiology",
       "summary": null,
       "external_url": null,
-      "homepage_featured": false
+      "homepage_featured": false,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2026-15-01.webp",
+          "alt": "Xingyuan presenting a poster at the 13th Xiamen Winter Symposium."
+        }
+      ]
     },
     {
       "id": "news-2025-16-congratulations-to-dr-he-liangqiang-on-his-publi",
@@ -168,7 +266,13 @@
       "title": "Guest Speaker Prof. Shihuan Kuang gave a talk about DLL1 in satellite cells",
       "summary": null,
       "external_url": null,
-      "homepage_featured": false
+      "homepage_featured": false,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2025-17-01.webp",
+          "alt": "Professor Shihuan Kuang with Wang Lab members during his visit."
+        }
+      ]
     },
     {
       "id": "news-2025-18-prof-huating-wang-and-her-team-gave-talks-at-the",
@@ -178,7 +282,13 @@
       "title": "Prof. Huating Wang and her team gave talks at The 10th National Symposium on Skeletal Muscle Biology in Yangzhou",
       "summary": null,
       "external_url": null,
-      "homepage_featured": false
+      "homepage_featured": false,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2025-18-01.webp",
+          "alt": "A presentation at the 10th National Symposium on Skeletal Muscle Biology in Yangzhou."
+        }
+      ]
     },
     {
       "id": "news-2025-19-cuhk-city-u-joint-symposium-on-g4-biology-chemis",
@@ -188,7 +298,13 @@
       "title": "CUHK-City U Joint Symposium on G4 Biology/ Chemistry",
       "summary": null,
       "external_url": null,
-      "homepage_featured": false
+      "homepage_featured": false,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2025-19-01.webp",
+          "alt": "Participants at the CUHK–CityU joint symposium on G4 biology and chemistry."
+        }
+      ]
     },
     {
       "id": "news-2025-20-congratulations-to-yang-a-baby-girl",
@@ -208,7 +324,13 @@
       "title": "Prof. Huating and Xiaona gave talks at EORS meeting in Davos",
       "summary": null,
       "external_url": null,
-      "homepage_featured": false
+      "homepage_featured": false,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2025-21-01.webp",
+          "alt": "Wang Lab members at the EORS meeting in Davos."
+        }
+      ]
     },
     {
       "id": "news-2025-22-congratulations-to-dr-li-chuhan-and-dr-yang-feng",
@@ -218,7 +340,17 @@
       "title": "Congratulations to Dr. Li Chuhan and Dr. Yang Feng!",
       "summary": null,
       "external_url": null,
-      "homepage_featured": false
+      "homepage_featured": false,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2025-22-01.webp",
+          "alt": "Dr. Yang Feng with colleagues."
+        },
+        {
+          "src": "/homepage-v4/assets/news/2025-22-02.webp",
+          "alt": "Dr. Li Chuhan with colleagues."
+        }
+      ]
     },
     {
       "id": "news-2025-23-congratulations-to-fu-yang-presenting-in-isscr",
@@ -228,7 +360,13 @@
       "title": "Congratulations to Fu Yang presenting in ISSCR!",
       "summary": null,
       "external_url": null,
-      "homepage_featured": false
+      "homepage_featured": false,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2025-23-01.webp",
+          "alt": "Fu Yang presenting at ISSCR."
+        }
+      ]
     },
     {
       "id": "news-2025-24-prof-huating-gave-a-talk-at-grc-myogenesis-in-it",
@@ -248,7 +386,13 @@
       "title": "Farewell to Sun Qiang!",
       "summary": null,
       "external_url": null,
-      "homepage_featured": false
+      "homepage_featured": false,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2025-25-01.webp",
+          "alt": "Wang Lab members at Sun Qiang's farewell."
+        }
+      ]
     },
     {
       "id": "news-2025-26-chuhan-and-yang-s-paper-has-been-accepted-by-nat",
@@ -308,7 +452,13 @@
       "title": "Lab Photo Shooting Day",
       "summary": null,
       "external_url": null,
-      "homepage_featured": false
+      "homepage_featured": false,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2025-31-01.webp",
+          "alt": "Wang Lab members during the 2025 photo-taking day."
+        }
+      ]
     },
     {
       "id": "news-2024-32-sun-qiang-s-paper-has-been-accepted-by-nucleic-a",
@@ -368,7 +518,13 @@
       "title": "Suyang won the best poster award at the 8th China Muscle Society Meeting!",
       "summary": null,
       "external_url": null,
-      "homepage_featured": false
+      "homepage_featured": false,
+      "images": [
+        {
+          "src": "/homepage-v4/assets/news/2023-37-01.webp",
+          "alt": "Suyang presenting at the 8th China Muscle Society Meeting."
+        }
+      ]
     },
     {
       "id": "news-2023-38-one-nsfc-was-awarded-to-xiaona",
