@@ -83,9 +83,9 @@ button { font: inherit; }
 .hero-kicker, .section-label, .theme-index, .journal-line, .footer-kicker { font-size: 10px; font-weight: 680; letter-spacing: .16em; line-height: 1.4; text-transform: uppercase; }
 .hero-kicker { display: flex; align-items: center; gap: 11px; margin: 0 0 26px 4px; color: #b4c0c8; }
 .hero-kicker span { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 18px rgba(241, 122, 107, .7); }
-.hero h1 { max-width: 1120px; margin: 0; font-size: clamp(64px, 8.2vw, 114px); font-weight: 760; letter-spacing: -.075em; line-height: 1.08; text-wrap: balance; }
+.hero h1 { max-width: 1120px; margin: 0; font-size: clamp(64px, 8.2vw, 114px); font-weight: 760; letter-spacing: -.075em; line-height: 1.16; text-wrap: balance; }
 .hero h1 span { display: block; }
-.hero h1 .accent-line { margin-top: .055em; background: linear-gradient(95deg, #f3897b 2%, #edaa91 64%, #f7c3a2 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero h1 .accent-line { margin-top: .035em; padding-bottom: .12em; background: linear-gradient(95deg, #f3897b 2%, #edaa91 64%, #f7c3a2 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .hero-copy { max-width: 540px; margin: 34px 0 0 5px; color: #c2c9ce; font-size: clamp(16px, 1.35vw, 20px); font-weight: 520; line-height: 1.55; }
 .hero-cue { position: absolute; right: var(--gutter); bottom: 31px; display: inline-flex; align-items: center; gap: 14px; color: #b7c2c9; font-size: 10px; font-weight: 650; letter-spacing: .13em; text-decoration: none; text-transform: uppercase; }
 .hero-cue span:last-child { display: grid; width: 28px; height: 28px; place-items: center; border: 1px solid rgba(255, 255, 255, .35); border-radius: 50%; color: white; font-size: 14px; }
@@ -219,7 +219,7 @@ button { font: inherit; }
   .primary-navigation a:last-child { margin-top: 8px; padding-inline: 13px; border: 0; text-align: center; }
   .hero-content { padding-top: 60px; }
   .hero-kicker { margin: 0 0 21px 1px; font-size: 8px; letter-spacing: .125em; }
-  .hero h1 { font-size: clamp(43px, 11.2vw, 57px); letter-spacing: -.074em; line-height: 1.07; }
+  .hero h1 { font-size: clamp(43px, 11.2vw, 57px); letter-spacing: -.074em; line-height: 1.14; }
   .hero h1 .accent-line { max-width: 10.5ch; }
   .hero-copy { max-width: 390px; margin: 26px 0 0 2px; font-size: 15px; }
   .hero-cue { right: 22px; bottom: 21px; font-size: 9px; }

@@ -90,9 +90,9 @@ button, input, select { font: inherit; }
 .hero-kicker, .section-label, .theme-index, .journal-line, .footer-kicker, .eyebrow { font-size: 10px; font-weight: 680; letter-spacing: .16em; line-height: 1.4; text-transform: uppercase; }
 .hero-kicker { display: flex; align-items: center; gap: 11px; margin: 0 0 26px 4px; color: #b4c0c8; }
 .hero-kicker span { width: 7px; height: 7px; flex: 0 0 auto; border-radius: 50%; background: var(--accent); box-shadow: 0 0 18px rgba(241, 122, 107, .7); }
-.page-hero h1 { max-width: 1120px; margin: 0; font-size: clamp(58px, 7.5vw, 104px); font-weight: 760; letter-spacing: -.075em; line-height: 1.08; text-wrap: balance; }
+.page-hero h1 { max-width: 1120px; margin: 0; font-size: clamp(58px, 7.5vw, 104px); font-weight: 760; letter-spacing: -.075em; line-height: 1.16; text-wrap: balance; }
 .page-hero h1 span { display: block; }
-.page-hero h1 .accent-line { margin-top: .055em; background: linear-gradient(95deg, #f3897b 2%, #edaa91 64%, #f7c3a2 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.page-hero h1 .accent-line { margin-top: .035em; padding-bottom: .12em; background: linear-gradient(95deg, #f3897b 2%, #edaa91 64%, #f7c3a2 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .hero-copy { max-width: 710px; margin: 30px 0 0 5px; color: #c2c9ce; font-size: clamp(16px, 1.35vw, 20px); font-weight: 520; line-height: 1.55; }
 .hero-cue { position: absolute; right: var(--gutter); bottom: 31px; display: inline-flex; align-items: center; gap: 14px; color: #b7c2c9; font-size: 10px; font-weight: 650; letter-spacing: .13em; text-decoration: none; text-transform: uppercase; }
 .hero-cue span:last-child { display: grid; width: 28px; height: 28px; place-items: center; border: 1px solid rgba(255, 255, 255, .35); border-radius: 50%; color: white; font-size: 14px; }
@@ -388,7 +388,7 @@ button, input, select { font: inherit; }
   .page-hero { min-height: clamp(560px, 82svh, 690px); align-items: center; }
   .hero-content { padding-top: 78px; padding-bottom: 54px; }
   .hero-kicker { margin: 0 0 21px 1px; font-size: 8px; letter-spacing: .125em; }
-  .page-hero h1 { font-size: clamp(43px, 11.2vw, 57px); letter-spacing: -.074em; line-height: 1.07; }
+  .page-hero h1 { font-size: clamp(43px, 11.2vw, 57px); letter-spacing: -.074em; line-height: 1.14; }
   .page-hero h1 .accent-line { max-width: 11ch; }
   .hero-copy { max-width: 390px; margin: 24px 0 0 2px; font-size: 15px; }
   .hero-cue { right: 22px; bottom: 21px; font-size: 9px; }
