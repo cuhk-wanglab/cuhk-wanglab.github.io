@@ -173,7 +173,7 @@ button, input, select { font: inherit; }
 .pi-career-title { margin: 0 0 15px; color: var(--accent-light); font-size: 17px; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
 .pi-timeline { display: grid; margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
 .pi-timeline-entry { display: grid; grid-template-columns: 56px 1fr; gap: 17px; padding: 12px 0; border-bottom: 1px solid var(--line); }
-.pi-timeline-year { color: var(--accent-light); font-size: 16px; font-variant-numeric: tabular-nums; }
+.pi-timeline-year { color: var(--accent-light); font-size: 14px; font-variant-numeric: tabular-nums; }
 .pi-timeline-copy { display: grid; color: #e3e9eb; font-size: 16px; line-height: 1.55; }
 .pi-timeline-institution, .pi-timeline-detail { color: var(--muted); }
 .members-section { background: var(--night); }
