@@ -164,17 +164,17 @@ button, input, select { font: inherit; }
 .pi-copy { min-width: 0; }
 .eyebrow { margin: 0 0 16px; color: var(--accent-light); font-size: 12px; }
 .pi-name { margin: 0; font-size: clamp(48px, 6.1vw, 84px); font-weight: 680; letter-spacing: -.075em; line-height: .98; }
-.pi-role { margin: 14px 0 0; color: #dce3e6; font-size: 19px; font-weight: 540; }
-.pi-affiliations { display: grid; gap: 5px; margin: 25px 0 0; padding: 0; color: var(--muted); font-size: 13px; list-style: none; }
+.pi-role { margin: 14px 0 0; color: #dce3e6; font-size: 22px; font-weight: 540; }
+.pi-affiliations { display: grid; gap: 5px; margin: 25px 0 0; padding: 0; color: var(--muted); font-size: 15px; list-style: none; }
 .pi-links { display: flex; flex-wrap: wrap; gap: 13px 25px; margin-top: 23px; }
-.pi-links a { color: #f0f4f5; font-size: 12px; text-decoration-color: rgba(255,255,255,.3); text-underline-offset: 4px; overflow-wrap: anywhere; }
+.pi-links a { color: #f0f4f5; font-size: 14px; text-decoration-color: rgba(255,255,255,.3); text-underline-offset: 4px; overflow-wrap: anywhere; }
 .pi-links a:hover, .pi-links a:focus-visible { text-decoration-color: var(--accent); }
 .pi-career { margin-top: 45px; }
-.pi-career-title { margin: 0 0 15px; color: var(--accent-light); font-size: 12px; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
+.pi-career-title { margin: 0 0 15px; color: var(--accent-light); font-size: 13px; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
 .pi-timeline { display: grid; margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
 .pi-timeline-entry { display: grid; grid-template-columns: 56px 1fr; gap: 17px; padding: 12px 0; border-bottom: 1px solid var(--line); }
-.pi-timeline-year { color: var(--accent-light); font-size: 11px; font-variant-numeric: tabular-nums; }
-.pi-timeline-copy { display: grid; color: #e3e9eb; font-size: 12px; line-height: 1.55; }
+.pi-timeline-year { color: var(--accent-light); font-size: 12px; font-variant-numeric: tabular-nums; }
+.pi-timeline-copy { display: grid; color: #e3e9eb; font-size: 14px; line-height: 1.55; }
 .pi-timeline-institution, .pi-timeline-detail { color: var(--muted); }
 .members-section { background: var(--night); }
 .members-heading { display: grid; grid-template-columns: minmax(170px, .72fr) minmax(0, 2fr); gap: clamp(38px, 8vw, 120px); align-items: end; margin-bottom: 65px; }
