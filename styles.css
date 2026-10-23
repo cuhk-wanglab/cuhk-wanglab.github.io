@@ -52,6 +52,7 @@ button { font: inherit; }
 .hero::before { width: min(72vw, 980px); aspect-ratio: 1; right: -18vw; top: -48%; }
 .hero::after { width: min(88vw, 1200px); aspect-ratio: 1; right: -20vw; top: -17%; }
 .hero-glow { position: absolute; z-index: -1; top: 34%; right: 9%; width: 380px; height: 380px; border-radius: 50%; background: rgba(150, 40, 150, .10); filter: blur(110px); }
+.hero-tissue { position: absolute; z-index: -1; top: 2%; right: -2.5%; height: 94%; max-width: 62vw; aspect-ratio: 4 / 3; background: url("/assets/hero-tissue.webp") right center / contain no-repeat; mix-blend-mode: normal; opacity: .42; pointer-events: none; }
 .hero-header {
   position: absolute;
   z-index: 10;
@@ -197,6 +198,7 @@ button { font: inherit; }
   .latest-figure { aspect-ratio: 16 / 10; }
 }
 @media (max-width: 1200px) {
+  .hero-tissue { max-width: 50vw; opacity: .38; }
   .menu-toggle { display: inline-flex; align-items: center; gap: 10px; padding: 8px 3px 8px 8px; border: 0; background: transparent; color: #f0f3f4; font-size: 12px; cursor: pointer; }
   .menu-icon { display: grid; width: 19px; gap: 5px; }
   .menu-icon i { display: block; width: 19px; height: 1px; background: currentColor; transition: transform .15s ease; }
@@ -210,6 +212,7 @@ button { font: inherit; }
 @media (max-width: 680px) {
   :root { --gutter: 22px; }
   .hero { min-height: clamp(650px, 86svh, 760px); align-items: center; }
+  .hero-tissue { top: auto; right: -38%; bottom: 2%; width: 108vw; height: auto; max-width: none; opacity: .15; }
   .hero-header { top: 10px; width: calc(100% - 20px); min-height: 58px; padding: 8px 12px 8px 15px; border-radius: 14px; }
   .wordmark-name { font-size: 18px; }
   .wordmark-subtitle { font-size: 9px; }

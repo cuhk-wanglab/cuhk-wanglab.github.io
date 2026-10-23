@@ -87,6 +87,7 @@ button, input, select { font: inherit; }
 .page-hero::before { width: min(72vw, 980px); aspect-ratio: 1; right: -18vw; top: -48%; }
 .page-hero::after { width: min(88vw, 1200px); aspect-ratio: 1; right: -20vw; top: -17%; }
 .hero-glow { position: absolute; z-index: -1; top: 34%; right: 9%; width: 380px; height: 380px; border-radius: 50%; background: rgba(150, 40, 150, .10); filter: blur(110px); }
+.page-hero .hero-tissue { position: absolute; z-index: -1; top: 2%; right: -2.5%; height: 94%; max-width: 60vw; aspect-ratio: 4 / 3; background: url("/assets/hero-tissue.webp") right center / contain no-repeat; mix-blend-mode: normal; opacity: .42; pointer-events: none; }
 .hero-content { width: min(100%, calc(var(--max) + var(--gutter) * 2)); margin-inline: auto; padding: 86px var(--gutter) 62px; }
 .hero-kicker, .section-label, .theme-index, .journal-line, .footer-kicker, .eyebrow { font-size: 13px; font-weight: 680; letter-spacing: .145em; line-height: 1.4; text-transform: uppercase; }
 .hero-kicker { display: flex; align-items: center; gap: 12px; margin: 0 0 26px 4px; color: #b4c0c8; font-size: 13px; letter-spacing: .145em; }
@@ -360,6 +361,7 @@ button, input, select { font: inherit; }
 }
 
 @media (max-width: 1200px) {
+  .page-hero .hero-tissue { max-width: 50vw; opacity: .38; }
   .menu-toggle { display: inline-flex; align-items: center; gap: 10px; padding: 8px 3px 8px 8px; border: 0; background: transparent; color: #f0f3f4; font-size: 12px; cursor: pointer; }
   .menu-icon { display: grid; width: 19px; gap: 5px; }
   .menu-icon i { display: block; width: 19px; height: 1px; background: currentColor; transition: transform .15s ease; }
@@ -374,6 +376,7 @@ button, input, select { font: inherit; }
 
 @media (max-width: 680px) {
   :root { --gutter: 22px; }
+  .page-hero .hero-tissue { top: auto; right: -38%; bottom: 2%; width: 108vw; height: auto; max-width: none; opacity: .15; }
   .hero-header { top: 10px; width: calc(100% - 20px); min-height: 58px; padding: 8px 12px 8px 15px; border-radius: 14px; }
   .wordmark-name { font-size: 18px; }
   .wordmark-subtitle { font-size: 9px; }

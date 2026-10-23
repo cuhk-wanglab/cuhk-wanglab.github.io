@@ -202,6 +202,8 @@ function renderHero(page, intro) {
   hero.setAttribute("aria-labelledby", "page-title");
   const glow = el("div", "hero-glow");
   glow.setAttribute("aria-hidden", "true");
+  const tissue = el("div", "hero-tissue");
+  tissue.setAttribute("aria-hidden", "true");
   const content = el("div", "hero-content");
   const kicker = el("p", "hero-kicker");
   const dot = el("span");
@@ -221,7 +223,7 @@ function renderHero(page, intro) {
   const cueArrow = el("span", "", "↓");
   cueArrow.setAttribute("aria-hidden", "true");
   cue.append(cueArrow);
-  hero.append(glow, content, cue);
+  hero.append(glow, tissue, content, cue);
   return hero;
 }
 
