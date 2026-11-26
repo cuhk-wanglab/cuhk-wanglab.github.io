@@ -86,8 +86,8 @@ button { font: inherit; }
 .hero-kicker { display: flex; align-items: center; gap: 12px; margin: 0 0 26px 4px; color: #b4c0c8; font-size: 13px; letter-spacing: .145em; }
 .hero-kicker span { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 18px rgba(199, 123, 216, .65); }
 .hero h1 { max-width: 1120px; margin: 0; font-size: clamp(64px, 8.2vw, 114px); font-weight: 760; letter-spacing: -.075em; line-height: 1.16; text-wrap: balance; }
-.hero h1 span { display: block; }
-.hero h1 .accent-line { margin-top: .035em; padding-bottom: .12em; background: linear-gradient(95deg, #f4e0fa 0%, #e7c2f5 20%, #d9a5ec 38%, #c886de 56%, #b56bce 74%, #a054b9 89%, #8a45a6 100%); width: fit-content; -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero h1 span { display: block; width: fit-content; background: linear-gradient(95deg, #f4e0fa 0%, #e7c2f5 20%, #d9a5ec 38%, #c886de 56%, #b56bce 74%, #a054b9 89%, #8a45a6 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero h1 .accent-line { margin-top: .035em; padding-bottom: .12em; }
 .hero-copy { max-width: 540px; margin: 34px 0 0 5px; color: #c2c9ce; font-size: clamp(16px, 1.35vw, 20px); font-weight: 520; line-height: 1.55; }
 .hero-cue { position: absolute; right: var(--gutter); bottom: 31px; display: inline-flex; align-items: center; gap: 15px; color: #b7c2c9; font-size: 13px; font-weight: 650; letter-spacing: .13em; text-decoration: none; text-transform: uppercase; }
 .hero-cta { display: inline-flex; align-items: center; gap: 14px; margin: 40px 0 0 5px; padding: 11px 13px 11px 26px; border: 1px solid rgba(199, 123, 216, .42); border-radius: 999px; background: rgba(199, 123, 216, .045); color: #eef2f4; font-size: 11px; font-weight: 650; letter-spacing: .135em; line-height: 1; text-decoration: none; text-transform: uppercase; transition: border-color .3s ease, background-color .3s ease, color .3s ease, box-shadow .3s ease; }
