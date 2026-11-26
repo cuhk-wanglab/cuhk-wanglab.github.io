@@ -94,7 +94,7 @@ button, input, select { font: inherit; }
 .hero-kicker span { width: 9px; height: 9px; flex: 0 0 auto; border-radius: 50%; background: var(--accent); box-shadow: 0 0 18px rgba(199, 123, 216, .65); }
 .page-hero h1 { max-width: 1120px; margin: 0; font-size: clamp(58px, 7.5vw, 104px); font-weight: 760; letter-spacing: -.075em; line-height: 1.16; text-wrap: balance; }
 .page-hero h1 span { display: block; }
-.page-hero h1 .accent-line { margin-top: .035em; padding-bottom: .12em; background: linear-gradient(95deg, #f4e0fa 0%, #e7c2f5 20%, #d9a5ec 38%, #c886de 56%, #b56bce 74%, #a054b9 89%, #8a45a6 100%); width: fit-content; -webkit-background-clip: text; background-clip: text; color: transparent; }
+.page-hero h1 .accent-line { margin-top: .035em; padding-bottom: .12em; padding-right: .14em; background: linear-gradient(95deg, #f4e0fa 0%, #e7c2f5 20%, #d9a5ec 38%, #c886de 56%, #b56bce 74%, #a054b9 89%, #8a45a6 100%); width: fit-content; -webkit-background-clip: text; background-clip: text; color: transparent; }
 .hero-copy { max-width: 710px; margin: 30px 0 0 5px; color: #c2c9ce; font-size: clamp(16px, 1.35vw, 20px); font-weight: 520; line-height: 1.55; }
 .hero-cue { position: absolute; right: var(--gutter); bottom: 31px; display: inline-flex; align-items: center; gap: 15px; color: #b7c2c9; font-size: 13px; font-weight: 650; letter-spacing: .13em; text-decoration: none; text-transform: uppercase; }
 .hero-cue span:last-child { display: grid; width: 34px; height: 34px; place-items: center; border: 1px solid rgba(255, 255, 255, .35); border-radius: 50%; color: white; font-size: 16px; }
